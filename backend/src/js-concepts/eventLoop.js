@@ -1,5 +1,7 @@
 // JavaScript Event Loop demonstration
 // Run: node src/js-concepts/eventLoop.js
+// Demonstrates JavaScript Event Loop,
+// including synchronous code, microtasks, and macrotasks.
 
 console.log('1. Synchronous code starts');
 
