@@ -134,3 +134,19 @@ node src/js-concepts/eventLoop.js
 node src/js-concepts/hoisting.js
 node src/js-concepts/promises-vs-callbacks.js
 ```
+## Kalvium Concept Mapping
+
+| Concept | Implementation |
+|---|---|
+| LLM API Integration | Gemini API in `backend/src/services/aiService.js` |
+| Prompt Engineering | Structured Gemini prompt in `aiService.js` |
+| Structured Outputs | JSON AI response parsing |
+| Middleware | Authentication, RBAC, validation and error middleware |
+| Git Workflow | Feature branches and merge workflow |
+| JavaScript Event Loop | `backend/src/js-concepts/eventLoop.js` |
+| JavaScript Hoisting | `backend/src/js-concepts/hoisting.js` |
+| Promises vs Callbacks | `backend/src/js-concepts/promises-vs-callbacks.js` |
+| MongoDB CRUD | Mongoose complaint operations |
+| MongoDB Schema Modeling | Mongoose models in `backend/src/models/` |
+| Relational Schema PK/FK | `backend/sql/schema.sql` |
+| SQL JOINs | `backend/sql/joins.sql` |
