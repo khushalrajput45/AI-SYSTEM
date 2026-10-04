@@ -1,6 +1,8 @@
 -- SQL JOIN demonstration
 -- The foreign keys connect complaints to users and departments.
 -- JOIN combines columns from these related tables without duplicating data.
+-- Demonstrates relational database design
+-- using primary keys, foreign keys and SQL JOINs.
 
 SELECT
     c.id AS complaint_id,
